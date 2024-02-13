@@ -1,6 +1,6 @@
 const express = require("express");
 const crypto = require("node:crypto"); // Libreria de node para crear un id random
-const movies = require("./movies.json");
+const movies = require("./class4/movies.json");
 const { validateMovie, validatePartialMovie } = require("./schemas/movie.js");
 const cors = require("cors");
 
